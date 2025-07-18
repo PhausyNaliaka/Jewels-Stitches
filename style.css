@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+}
+
+header {
+  background-color: #006d6d; /* Deep Teal */
+  color: #ffd700; /* Gold Text */
+  padding: 2em 1em;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin: 0.5em 0 0;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 2em;
+  background-color: #fff;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #006d6d;
+  border-bottom: 2px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 0.2em;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #006d6d;
+  color: #ffd700;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.gallery img {
+  width: 100%;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contact-buttons {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.contact-buttons a {
+  text-decoration: none;
+}
